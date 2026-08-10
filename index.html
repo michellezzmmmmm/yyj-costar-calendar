@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>演出日历</title>
+<style>
+  :root{
+    --bg: #FFFFFF;
+    --panel: #F6F4F0;
+    --line: #E3DFD6;
+    --text: #4A4744;
+    --text-dim: #9A958C;
+    --a-color: #8FA398;
+    --a-dark: #4C6459;
+    --a-bg: #E9EFEA;
+    --b-color: #C9A3A3;
+    --b-dark: #8A5A5C;
+    --b-bg: #F5EBE9;
+    --both-color: #C9963D;
+    --both-dark: #8A6423;
+    --both-bg: #F4E3C4;
+    --both-border: #C9963D;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:48px 24px 100px; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  .wrap{max-width:640px; margin:0 auto;}
+  h1{font-size:26px; font-weight:600; letter-spacing:0.5px; margin:0 0 6px; text-align:center;}
+  .sub{text-align:center; color:var(--text-dim); font-size:13px; margin-bottom:20px;}
+  .loading{text-align:center; color:var(--text-dim); font-size:14px; padding:80px 0;}
+  .error{text-align:center; color:var(--b-dark); font-size:13px; padding:40px 0;}
+
+  .stats-bar{
+    display:flex; justify-content:center; gap:0; margin-bottom:6px;
+    background:var(--panel); border-radius:14px; padding:16px 10px;
+  }
+  .stat{flex:1; text-align:center; border-right:1px solid var(--line);}
+  .stat:last-child{border-right:none;}
+  .stat .num{font-size:20px; font-weight:700; margin-bottom:2px;}
+  .stat .label{font-size:11px; color:var(--text-dim);}
+  .stat.a .num{color:var(--a-dark);}
+  .stat.b .num{color:var(--b-dark);}
+  .stat.both .num{color:var(--both-dark);}
+  .stat.watched .num{color:var(--text);}
+  .watched-detail{text-align:center; font-size:11px; color:var(--text-dim); margin:6px 0 10px;}
+  .milestone{
+    text-align:center; font-size:12px; color:var(--both-dark); margin-bottom:24px;
+    background:var(--both-bg); border-radius:20px; padding:6px 16px; display:none;
+  }
+  .milestone.show{display:inline-block; margin-left:50%; transform:translateX(-50%);}
+
+  .filters{display:flex; justify-content:center; gap:8px; margin-bottom:18px;}
+  .filter-btn{
+    border:1px solid var(--line); background:var(--bg); color:var(--text-dim);
+    font-size:13px; padding:7px 16px; border-radius:20px; cursor:pointer;
+    display:flex; align-items:center; gap:7px;
+  }
+  .filter-btn .dot{width:8px; height:8px; border-radius:50%;}
+  .filter-btn[data-f="a"] .dot{background:var(--a-color);}
+  .filter-btn[data-f="b"] .dot{background:var(--b-color);}
+  .filter-btn[data-f="all"] .dot{background:var(--text-dim);}
+  .filter-btn.active{color:var(--text); border-color:var(--text); font-weight:600;}
+
+  .legend{display:flex; justify-content:center; gap:18px; margin-bottom:28px; flex-wrap:wrap;}
+  .legend-item{display:flex; align-items:center; gap:7px; font-size:12px; color:var(--text-dim);}
+  .legend-dot{width:9px; height:9px; border-radius:50%;}
+  .legend-dot.a{background:var(--a-color);}
+  .legend-dot.b{background:var(--b-color);}
+  .legend-dot.both{background:var(--both-color); box-shadow:0 0 0 2px var(--both-bg);}
+
+  .month-nav{display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:18px;}
+  .nav-btn{
+    width:34px; height:34px; border-radius:50%; border:1px solid var(--line);
+    background:var(--bg); color:var(--text); font-size:15px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .nav-btn:disabled{opacity:0.3; cursor:default;}
+  .month-select{
+    font-size:16px; font-weight:600; color:var(--text); border:1px solid var(--line);
+    border-radius:20px; padding:7px 14px; background:var(--bg); cursor:pointer;
+    font-family:inherit; text-align:center;
+  }
+  .today-btn{
+    font-size:12px; color:var(--text-dim); border:1px solid var(--line); background:var(--bg);
+    border-radius:20px; padding:6px 12px; cursor:pointer; margin-left:4px;
+  }
+
+  .weekdays{display:grid; grid-template-columns:repeat(7,1fr); gap:6px; margin-bottom:6px;}
+  .weekdays div{text-align:center; font-size:11px; color:var(--text-dim); padding-bottom:4px;}
+  .days{display:grid; grid-template-columns:repeat(7,1fr); gap:6px;}
+  .day{
+    aspect-ratio:1; border-radius:10px; background:var(--panel);
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    font-size:13px; color:var(--text); position:relative; cursor:default;
+    border:1.5px solid transparent;
+  }
+  .day.empty{background:transparent;}
+  .day.has-show{cursor:pointer; font-weight:600;}
+  .day.only-a{background:var(--a-bg); color:var(--a-dark);}
+  .day.only-b{background:var(--b-bg); color:var(--b-dark);}
+  .day.both{background:var(--both-bg); color:var(--both-dark); border-color:var(--both-border);}
+  .day.mixed{background:var(--panel); color:var(--text);}
+  .day.selected{border-color:currentColor;}
+  .day .dots{display:flex; gap:3px; margin-top:3px;}
+  .day .dots span{width:4px; height:4px; border-radius:50%;}
+  .day.only-a .dots span{background:var(--a-color);}
+  .day.only-b .dots span{background:var(--b-color);}
+  .day.both .dots span:nth-child(1){background:var(--a-color);}
+  .day.both .dots span:nth-child(2){background:var(--b-color);}
+  .day.mixed .dots span:nth-child(1){background:var(--a-color);}
+  .day.mixed .dots span:nth-child(2){background:var(--b-color);}
+  .day .check{position:absolute; top:3px; right:4px; font-size:9px; color:var(--both-dark);}
+
+  .detail-panel{margin-top:32px; padding:22px 26px; background:var(--panel); border-radius:16px; min-height:60px;}
+  .detail-empty{color:var(--text-dim); font-size:13px; text-align:center; padding:8px 0;}
+  .detail-date{font-size:13px; color:var(--text-dim); margin-bottom:12px;}
+  .detail-show{background:var(--bg); border-radius:12px; padding:14px 16px; margin-bottom:10px;}
+  .detail-show:last-child{margin-bottom:0;}
+  .detail-show .musical{font-size:15px; font-weight:600; margin-bottom:4px;}
+  .detail-show .place{font-size:12px; color:var(--text-dim); margin-bottom:10px;}
+  .detail-show .roles{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px;}
+  .role-pill{font-size:12px; padding:4px 10px; border-radius:20px; display:flex; gap:6px; align-items:center;}
+  .role-pill.a{background:var(--a-bg); color:var(--a-dark);}
+  .role-pill.b{background:var(--b-bg); color:var(--b-dark);}
+  .role-pill.both{background:var(--both-bg); color:var(--both-dark); font-weight:600;}
+  .ticket-check{
+    display:flex; align-items:center; gap:8px; font-size:13px; color:var(--text-dim);
+    cursor:pointer; padding-top:10px; border-top:1px solid var(--line);
+  }
+  .ticket-check input{width:16px; height:16px; accent-color:var(--both-color); cursor:pointer;}
+  .ticket-check.checked{color:var(--both-dark); font-weight:600;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 id="pageTitle">演出日历</h1>
+  <div class="sub" id="pageSub">正在加载…</div>
+  <div id="app"></div>
+</div>
+
+<script>
+const APP = document.getElementById("app");
+let NAME_A = "", NAME_B = "", SHOWS = [];
+let STORAGE_PREFIX = "";
+let byDate = {};
+let allDateKeys = [];
+let currentFilter = "all";
+let cursorYear, cursorMonth;
+let minDate = null, maxDate = null;
+let monthOptions = [];
+
+const WEEKDAY_LABELS = ["日","一","二","三","四","五","六"];
+const MONTH_NAMES = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
+const MILESTONES = [10,20,30,50,100,150,200,250,300,400,500,750,1000];
+
+async function init(){
+  try{
+    const resp = await fetch("./data.json", {cache: "no-store"});
+    if(!resp.ok) throw new Error("data.json 加载失败 (" + resp.status + ")");
+    const data = await resp.json();
+    NAME_A = data.name_a;
+    NAME_B = data.name_b;
+    SHOWS = data.shows || [];
+    STORAGE_PREFIX = `ticket_${NAME_A}_${NAME_B}_`;
+
+    document.getElementById("pageTitle").textContent = `${NAME_A} × ${NAME_B}`;
+    const genDate = new Date(data.generated_at);
+    const genLabel = isNaN(genDate) ? data.generated_at : genDate.toLocaleString("zh-CN");
+    document.getElementById("pageSub").textContent = `演出日历 · 数据更新于 ${genLabel}`;
+
+    buildIndex();
+    renderApp();
+
+    const now = new Date();
+    cursorYear = now.getFullYear();
+    cursorMonth = now.getMonth()+1;
+    renderWeekdays();
+    renderMonth();
+  }catch(err){
+    document.getElementById("pageSub").textContent = "";
+    APP.innerHTML = `<div class="error">数据加载失败：${err.message}<br>请确认 data.json 和这个页面在同一个目录，并且已经被GitHub Actions生成过至少一次。</div>`;
+  }
+}
+
+function buildIndex(){
+  byDate = {};
+  SHOWS.forEach(s => {
+    const d = new Date((s.time||"").replace(" ","T"));
+    if(isNaN(d)) return;
+    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+    if(!byDate[key]) byDate[key] = [];
+    byDate[key].push(s);
+  });
+  allDateKeys = Object.keys(byDate).sort();
+  minDate = allDateKeys.length ? allDateKeys[0] : null;
+  maxDate = allDateKeys.length ? allDateKeys[allDateKeys.length-1] : null;
+
+  monthOptions = [];
+  if(minDate && maxDate){
+    let y = parseInt(minDate.slice(0,4)), m = parseInt(minDate.slice(5,7));
+    const endY = parseInt(maxDate.slice(0,4)), endM = parseInt(maxDate.slice(5,7));
+    while(y < endY || (y === endY && m <= endM)){
+      monthOptions.push(`${y}-${String(m).padStart(2,"0")}`);
+      m += 1;
+      if(m > 12){ m = 1; y += 1; }
+    }
+  }
+}
+
+function renderApp(){
+  APP.innerHTML = `
+    <div class="stats-bar">
+      <div class="stat a"><div class="num" id="statA">-</div><div class="label">${NAME_A} 总场次</div></div>
+      <div class="stat b"><div class="num" id="statB">-</div><div class="label">${NAME_B} 总场次</div></div>
+      <div class="stat both"><div class="num" id="statBoth">-</div><div class="label">同台场次</div></div>
+      <div class="stat watched"><div class="num" id="statWatched">-</div><div class="label">已看</div></div>
+    </div>
+    <div class="watched-detail" id="watchedDetail"></div>
+    <div class="milestone" id="milestoneNote"></div>
+
+    <div class="filters" id="filterBar">
+      <button class="filter-btn active" data-f="all"><span class="dot"></span>都看</button>
+      <button class="filter-btn" data-f="a"><span class="dot"></span>只看 ${NAME_A}</button>
+      <button class="filter-btn" data-f="b"><span class="dot"></span>只看 ${NAME_B}</button>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><span class="legend-dot a"></span>${NAME_A}</div>
+      <div class="legend-item"><span class="legend-dot b"></span>${NAME_B}</div>
+      <div class="legend-item"><span class="legend-dot both"></span>同场（真正共演）</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--panel); border:1.5px solid var(--line);"></span>同日各自有场</div>
+    </div>
+
+    <div class="month-nav">
+      <button class="nav-btn" id="prevBtn">‹</button>
+      <select class="month-select" id="monthSelect"></select>
+      <button class="nav-btn" id="nextBtn">›</button>
+      <button class="today-btn" id="todayBtn">回到本月</button>
+    </div>
+
+    <div class="weekdays" id="weekdaysRow"></div>
+    <div class="days" id="daysGrid"></div>
+
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-empty">点击日历上的日期查看演出详情</div>
+    </div>
+  `;
+
+  document.getElementById("filterBar").querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentFilter = btn.dataset.f;
+      renderMonth();
+      document.getElementById("detailPanel").innerHTML = `<div class="detail-empty">点击日历上的日期查看演出详情</div>`;
+    });
+  });
+
+  document.getElementById("prevBtn").addEventListener("click", () => {
+    cursorMonth -= 1;
+    if(cursorMonth < 1){ cursorMonth = 12; cursorYear -= 1; }
+    renderMonth();
+  });
+  document.getElementById("nextBtn").addEventListener("click", () => {
+    cursorMonth += 1;
+    if(cursorMonth > 12){ cursorMonth = 1; cursorYear += 1; }
+    renderMonth();
+  });
+  document.getElementById("todayBtn").addEventListener("click", () => {
+    const n = new Date();
+    cursorYear = n.getFullYear();
+    cursorMonth = n.getMonth()+1;
+    renderMonth();
+  });
+  document.getElementById("monthSelect").addEventListener("change", (e) => {
+    const [y, m] = e.target.value.split("-").map(Number);
+    cursorYear = y; cursorMonth = m;
+    renderMonth();
+  });
+}
+
+function passesFilter(s){
+  if(currentFilter === "a") return !!s.roleA;
+  if(currentFilter === "b") return !!s.roleB;
+  return true;
+}
+
+function classify(dayShows){
+  const visible = dayShows.filter(passesFilter);
+  if(visible.length === 0) return null;
+  const trueCostar = visible.some(s => s.roleA && s.roleB);
+  if(trueCostar) return "both";
+  const hasA = visible.some(s => s.roleA);
+  const hasB = visible.some(s => s.roleB);
+  if(hasA && hasB) return "mixed";
+  if(hasA) return "only-a";
+  return "only-b";
+}
+
+function isBought(dateKey, s){
+  return localStorage.getItem(STORAGE_PREFIX + dateKey + "_" + s.musical + "_" + s.time) === "1";
+}
+function anyBought(dateKey, dayShows){
+  return dayShows.some(s => isBought(dateKey, s));
+}
+function fmtTime(iso){
+  const d = new Date((iso||"").replace(" ","T"));
+  if(isNaN(d)) return "";
+  return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+}
+
+function updateStats(){
+  const totalA = SHOWS.filter(s => s.roleA).length;
+  const totalB = SHOWS.filter(s => s.roleB).length;
+  const totalBoth = SHOWS.filter(s => s.roleA && s.roleB).length;
+
+  let watched = 0, watchedA = 0, watchedB = 0, watchedBoth = 0;
+  SHOWS.forEach(s => {
+    const d = new Date((s.time||"").replace(" ","T"));
+    if(isNaN(d)) return;
+    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+    if(!isBought(key, s)) return;
+    watched += 1;
+    const both = s.roleA && s.roleB;
+    if(both) watchedBoth += 1;
+    else if(s.roleA) watchedA += 1;
+    else if(s.roleB) watchedB += 1;
+  });
+
+  document.getElementById("statA").textContent = totalA;
+  document.getElementById("statB").textContent = totalB;
+  document.getElementById("statBoth").textContent = totalBoth;
+  document.getElementById("statWatched").textContent = watched;
+  document.getElementById("watchedDetail").textContent =
+    watched > 0 ? `${NAME_A} ${watchedA+watchedBoth} · ${NAME_B} ${watchedB+watchedBoth} · 同台 ${watchedBoth}` : "";
+
+  const milestoneEl = document.getElementById("milestoneNote");
+  if(watched === 0){
+    milestoneEl.classList.remove("show");
+  } else if(MILESTONES.includes(watched)){
+    milestoneEl.textContent = `已达成第 ${watched} 场纪念`;
+    milestoneEl.classList.add("show");
+  } else {
+    const next = MILESTONES.find(m => m > watched);
+    if(next){
+      milestoneEl.textContent = `距第 ${next} 场纪念还差 ${next - watched} 场`;
+      milestoneEl.classList.add("show");
+    } else {
+      milestoneEl.classList.remove("show");
+    }
+  }
+}
+
+function renderWeekdays(){
+  const row = document.getElementById("weekdaysRow");
+  row.innerHTML = "";
+  WEEKDAY_LABELS.forEach(w => {
+    const el = document.createElement("div");
+    el.textContent = w;
+    row.appendChild(el);
+  });
+}
+
+function renderMonthSelect(){
+  const select = document.getElementById("monthSelect");
+  select.innerHTML = "";
+  const curKey = `${cursorYear}-${String(cursorMonth).padStart(2,"0")}`;
+  let optionsToUse = monthOptions.includes(curKey) ? monthOptions : [...monthOptions, curKey].sort();
+  optionsToUse.forEach(key => {
+    const [y, m] = key.split("-").map(Number);
+    const opt = document.createElement("option");
+    opt.value = key;
+    opt.textContent = `${y}年 ${MONTH_NAMES[m-1]}`;
+    if(key === curKey) opt.selected = true;
+    select.appendChild(opt);
+  });
+}
+
+function renderMonth(){
+  renderMonthSelect();
+
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  const curKey = `${cursorYear}-${String(cursorMonth).padStart(2,"0")}`;
+  prevBtn.disabled = minDate ? curKey <= minDate.slice(0,7) : false;
+  nextBtn.disabled = maxDate ? curKey >= maxDate.slice(0,7) : false;
+
+  const grid = document.getElementById("daysGrid");
+  grid.innerHTML = "";
+
+  const firstDay = new Date(cursorYear, cursorMonth-1, 1);
+  const startOffset = firstDay.getDay();
+  const daysInMonth = new Date(cursorYear, cursorMonth, 0).getDate();
+
+  for(let i=0; i<startOffset; i++){
+    const empty = document.createElement("div");
+    empty.className = "day empty";
+    grid.appendChild(empty);
+  }
+
+  for(let d=1; d<=daysInMonth; d++){
+    const dateKey = `${cursorYear}-${String(cursorMonth).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+    const dayShows = byDate[dateKey];
+    const cell = document.createElement("div");
+    cell.className = "day";
+    cell.dataset.date = dateKey;
+
+    const num = document.createElement("div");
+    num.textContent = d;
+    cell.appendChild(num);
+
+    if(dayShows){
+      const cls = classify(dayShows);
+      if(cls){
+        cell.classList.add("has-show", cls);
+        const dots = document.createElement("div");
+        dots.className = "dots";
+        const count = (cls === "both" || cls === "mixed") ? 2 : 1;
+        for(let i=0;i<count;i++) dots.appendChild(document.createElement("span"));
+        cell.appendChild(dots);
+        cell.addEventListener("click", () => showDetail(dateKey));
+
+        if(anyBought(dateKey, dayShows)){
+          const check = document.createElement("div");
+          check.className = "check";
+          check.textContent = "✓";
+          cell.appendChild(check);
+        }
+      }
+    }
+
+    grid.appendChild(cell);
+  }
+
+  updateStats();
+}
+
+function showDetail(dateKey){
+  document.querySelectorAll(".day").forEach(el => el.classList.remove("selected"));
+  const cell = document.querySelector(`.day[data-date="${dateKey}"]`);
+  if(cell) cell.classList.add("selected");
+
+  const panel = document.getElementById("detailPanel");
+  const dayShows = (byDate[dateKey] || []).filter(passesFilter);
+  if(dayShows.length === 0){
+    panel.innerHTML = `<div class="detail-empty">这个筛选条件下这天没有演出</div>`;
+    return;
+  }
+
+  const dateLabel = new Date(dateKey).toLocaleDateString("zh-CN", {year:"numeric",month:"long",day:"numeric",weekday:"long"});
+  let html = `<div class="detail-date">${dateLabel}</div>`;
+
+  dayShows.forEach((s) => {
+    const both = s.roleA && s.roleB;
+    let pillsHtml = "";
+    if(both){
+      pillsHtml = `<span class="role-pill both">同台 · ${NAME_A} ${s.roleA} · ${NAME_B} ${s.roleB}</span>`;
+    } else if(s.roleA){
+      pillsHtml = `<span class="role-pill a">${NAME_A} · ${s.roleA}</span>`;
+    } else if(s.roleB){
+      pillsHtml = `<span class="role-pill b">${NAME_B} · ${s.roleB}</span>`;
+    }
+    const storeKey = STORAGE_PREFIX + dateKey + "_" + s.musical + "_" + s.time;
+    const checked = isBought(dateKey, s);
+    html += `
+      <div class="detail-show">
+        <div class="musical">${s.musical} <span style="color:var(--text-dim);font-weight:400;">${fmtTime(s.time)}</span></div>
+        <div class="place">${s.city} · ${s.theatre}</div>
+        <div class="roles">${pillsHtml}</div>
+        <label class="ticket-check ${checked?'checked':''}" data-store-key="${storeKey}">
+          <input type="checkbox" ${checked?'checked':''}>
+          <span class="label-text">${checked?'已看':'标记为已看'}</span>
+        </label>
+      </div>`;
+  });
+  panel.innerHTML = html;
+
+  panel.querySelectorAll(".ticket-check").forEach(label => {
+    const input = label.querySelector("input");
+    input.addEventListener("change", () => {
+      const key = label.dataset.storeKey;
+      if(input.checked){
+        localStorage.setItem(key, "1");
+        label.classList.add("checked");
+        label.querySelector(".label-text").textContent = "已看";
+      } else {
+        localStorage.removeItem(key);
+        label.classList.remove("checked");
+        label.querySelector(".label-text").textContent = "标记为已看";
+      }
+      renderMonth();
+    });
+  });
+}
+
+init();
+</script>
+</body>
+</html>
