@@ -32,8 +32,17 @@
   .loading{text-align:center; color:var(--text-dim); font-size:14px; padding:80px 0;}
   .error{text-align:center; color:var(--b-dark); font-size:13px; padding:40px 0;}
 
+  .tabs{display:flex; justify-content:center; gap:8px; margin-bottom:28px;}
+  .tab-btn{
+    border:1px solid var(--line); background:var(--bg); color:var(--text-dim);
+    font-size:14px; padding:9px 20px; border-radius:20px; cursor:pointer; font-family:inherit;
+  }
+  .tab-btn.active{background:var(--text); color:var(--bg); border-color:var(--text); font-weight:600;}
+  .tab-panel{display:none;}
+  .tab-panel.active{display:block;}
+
   .stats-bar{
-    display:flex; justify-content:center; gap:0; margin-bottom:6px;
+    display:flex; justify-content:center; gap:0; margin-bottom:8px;
     background:var(--panel); border-radius:14px; padding:16px 10px;
   }
   .stat{flex:1; text-align:center; border-right:1px solid var(--line);}
@@ -44,12 +53,10 @@
   .stat.b .num{color:var(--b-dark);}
   .stat.both .num{color:var(--both-dark);}
   .stat.watched .num{color:var(--text);}
-  .watched-detail{text-align:center; font-size:11px; color:var(--text-dim); margin:6px 0 10px;}
-  .milestone{
-    text-align:center; font-size:12px; color:var(--both-dark); margin-bottom:24px;
-    background:var(--both-bg); border-radius:20px; padding:6px 16px; display:none;
+  .goto-record{
+    text-align:center; font-size:12px; color:var(--text-dim); margin-bottom:28px;
+    cursor:pointer; text-decoration:underline; text-underline-offset:3px;
   }
-  .milestone.show{display:inline-block; margin-left:50%; transform:translateX(-50%);}
 
   .filters{display:flex; justify-content:center; gap:8px; margin-bottom:18px;}
   .filter-btn{
@@ -131,6 +138,35 @@
   }
   .ticket-check input{width:16px; height:16px; accent-color:var(--both-color); cursor:pointer;}
   .ticket-check.checked{color:var(--both-dark); font-weight:600;}
+
+  .record-title{font-size:16px; font-weight:600; margin:0 0 16px;}
+  .progress-block{margin-bottom:28px;}
+  .progress-row{margin-bottom:16px;}
+  .progress-row:last-child{margin-bottom:0;}
+  .progress-row .row-head{display:flex; justify-content:space-between; align-items:baseline; font-size:13px; margin-bottom:6px;}
+  .progress-row .row-head .who{font-weight:600;}
+  .progress-row .row-head .who.a{color:var(--a-dark);}
+  .progress-row .row-head .who.b{color:var(--b-dark);}
+  .progress-row .row-head .who.both{color:var(--both-dark);}
+  .progress-row .row-head .hint{color:var(--text-dim); font-size:12px;}
+  .progress-track{height:8px; background:var(--panel); border-radius:4px; overflow:hidden;}
+  .progress-fill{height:100%; border-radius:4px; transition:width 0.3s;}
+  .progress-fill.a{background:var(--a-color);}
+  .progress-fill.b{background:var(--b-color);}
+  .progress-fill.both{background:var(--both-color);}
+
+  .record-list-title{font-size:13px; color:var(--text-dim); margin:28px 0 12px;}
+  .watched-item{
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+    background:var(--panel); border-radius:12px; padding:12px 16px; margin-bottom:8px;
+  }
+  .watched-item .info .musical{font-size:14px; font-weight:600; margin-bottom:3px;}
+  .watched-item .info .meta{font-size:12px; color:var(--text-dim);}
+  .watched-item .unmark-btn{
+    font-size:12px; color:var(--text-dim); border:1px solid var(--line); background:var(--bg);
+    border-radius:16px; padding:5px 12px; cursor:pointer; flex-shrink:0; font-family:inherit;
+  }
+  .record-empty{color:var(--text-dim); font-size:13px; text-align:center; padding:40px 0;}
 </style>
 </head>
 <body>
@@ -147,6 +183,7 @@ let STORAGE_PREFIX = "";
 let byDate = {};
 let allDateKeys = [];
 let currentFilter = "all";
+let currentTab = "calendar";
 let cursorYear, cursorMonth;
 let minDate = null, maxDate = null;
 let monthOptions = [];
@@ -178,6 +215,7 @@ async function init(){
     cursorMonth = now.getMonth()+1;
     renderWeekdays();
     renderMonth();
+    renderRecordTab();
   }catch(err){
     document.getElementById("pageSub").textContent = "";
     APP.innerHTML = `<div class="error">数据加载失败：${err.message}<br>请确认 data.json 和这个页面在同一个目录，并且已经被GitHub Actions生成过至少一次。</div>`;
@@ -211,42 +249,60 @@ function buildIndex(){
 
 function renderApp(){
   APP.innerHTML = `
-    <div class="stats-bar">
-      <div class="stat a"><div class="num" id="statA">-</div><div class="label">${NAME_A} 总场次</div></div>
-      <div class="stat b"><div class="num" id="statB">-</div><div class="label">${NAME_B} 总场次</div></div>
-      <div class="stat both"><div class="num" id="statBoth">-</div><div class="label">同台场次</div></div>
-      <div class="stat watched"><div class="num" id="statWatched">-</div><div class="label">已看</div></div>
-    </div>
-    <div class="watched-detail" id="watchedDetail"></div>
-    <div class="milestone" id="milestoneNote"></div>
-
-    <div class="filters" id="filterBar">
-      <button class="filter-btn active" data-f="all"><span class="dot"></span>都看</button>
-      <button class="filter-btn" data-f="a"><span class="dot"></span>只看 ${NAME_A}</button>
-      <button class="filter-btn" data-f="b"><span class="dot"></span>只看 ${NAME_B}</button>
+    <div class="tabs" id="tabBar">
+      <button class="tab-btn active" data-tab="calendar">日历</button>
+      <button class="tab-btn" data-tab="record">我的观演记录</button>
     </div>
 
-    <div class="legend">
-      <div class="legend-item"><span class="legend-dot a"></span>${NAME_A}</div>
-      <div class="legend-item"><span class="legend-dot b"></span>${NAME_B}</div>
-      <div class="legend-item"><span class="legend-dot both"></span>同场（真正共演）</div>
-      <div class="legend-item"><span class="legend-dot" style="background:var(--panel); border:1.5px solid var(--line);"></span>同日各自有场</div>
+    <div class="tab-panel active" id="tabCalendar">
+      <div class="stats-bar">
+        <div class="stat a"><div class="num" id="statA">-</div><div class="label">${NAME_A} 总场次</div></div>
+        <div class="stat b"><div class="num" id="statB">-</div><div class="label">${NAME_B} 总场次</div></div>
+        <div class="stat both"><div class="num" id="statBoth">-</div><div class="label">同台场次</div></div>
+        <div class="stat watched"><div class="num" id="statWatched">-</div><div class="label">已看</div></div>
+      </div>
+      <div class="goto-record" id="gotoRecord">查看我的观演进度和记录 →</div>
+
+      <div class="filters" id="filterBar">
+        <button class="filter-btn active" data-f="all"><span class="dot"></span>都看</button>
+        <button class="filter-btn" data-f="a"><span class="dot"></span>只看 ${NAME_A}</button>
+        <button class="filter-btn" data-f="b"><span class="dot"></span>只看 ${NAME_B}</button>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><span class="legend-dot a"></span>${NAME_A}</div>
+        <div class="legend-item"><span class="legend-dot b"></span>${NAME_B}</div>
+        <div class="legend-item"><span class="legend-dot both"></span>同场（真正共演）</div>
+        <div class="legend-item"><span class="legend-dot" style="background:var(--panel); border:1.5px solid var(--line);"></span>同日各自有场</div>
+      </div>
+
+      <div class="month-nav">
+        <button class="nav-btn" id="prevBtn">‹</button>
+        <select class="month-select" id="monthSelect"></select>
+        <button class="nav-btn" id="nextBtn">›</button>
+        <button class="today-btn" id="todayBtn">回到本月</button>
+      </div>
+
+      <div class="weekdays" id="weekdaysRow"></div>
+      <div class="days" id="daysGrid"></div>
+
+      <div class="detail-panel" id="detailPanel">
+        <div class="detail-empty">点击日历上的日期查看演出详情</div>
+      </div>
     </div>
 
-    <div class="month-nav">
-      <button class="nav-btn" id="prevBtn">‹</button>
-      <select class="month-select" id="monthSelect"></select>
-      <button class="nav-btn" id="nextBtn">›</button>
-      <button class="today-btn" id="todayBtn">回到本月</button>
-    </div>
-
-    <div class="weekdays" id="weekdaysRow"></div>
-    <div class="days" id="daysGrid"></div>
-
-    <div class="detail-panel" id="detailPanel">
-      <div class="detail-empty">点击日历上的日期查看演出详情</div>
+    <div class="tab-panel" id="tabRecord">
+      <div class="record-title">你的观演进度</div>
+      <div class="progress-block" id="progressBlock"></div>
+      <div class="record-list-title" id="recordListTitle"></div>
+      <div id="watchedList"></div>
     </div>
   `;
+
+  document.getElementById("tabBar").querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => switchTab(btn.dataset.tab));
+  });
+  document.getElementById("gotoRecord").addEventListener("click", () => switchTab("record"));
 
   document.getElementById("filterBar").querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -281,6 +337,14 @@ function renderApp(){
   });
 }
 
+function switchTab(tab){
+  currentTab = tab;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("active", b.dataset.tab === tab));
+  document.getElementById("tabCalendar").classList.toggle("active", tab === "calendar");
+  document.getElementById("tabRecord").classList.toggle("active", tab === "record");
+  if(tab === "record") renderRecordTab();
+}
+
 function passesFilter(s){
   if(currentFilter === "a") return !!s.roleA;
   if(currentFilter === "b") return !!s.roleB;
@@ -299,6 +363,12 @@ function classify(dayShows){
   return "only-b";
 }
 
+function dateKeyOf(s){
+  const d = new Date((s.time||"").replace(" ","T"));
+  if(isNaN(d)) return null;
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+}
+
 function isBought(dateKey, s){
   return localStorage.getItem(STORAGE_PREFIX + dateKey + "_" + s.musical + "_" + s.time) === "1";
 }
@@ -310,47 +380,27 @@ function fmtTime(iso){
   if(isNaN(d)) return "";
   return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
 }
+function fmtFullDate(iso){
+  const d = new Date((iso||"").replace(" ","T"));
+  if(isNaN(d)) return iso||"";
+  return d.toLocaleDateString("zh-CN", {year:"numeric",month:"long",day:"numeric",weekday:"short"});
+}
 
 function updateStats(){
   const totalA = SHOWS.filter(s => s.roleA).length;
   const totalB = SHOWS.filter(s => s.roleB).length;
   const totalBoth = SHOWS.filter(s => s.roleA && s.roleB).length;
 
-  let watched = 0, watchedA = 0, watchedB = 0, watchedBoth = 0;
+  let watched = 0;
   SHOWS.forEach(s => {
-    const d = new Date((s.time||"").replace(" ","T"));
-    if(isNaN(d)) return;
-    const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
-    if(!isBought(key, s)) return;
-    watched += 1;
-    const both = s.roleA && s.roleB;
-    if(both) watchedBoth += 1;
-    else if(s.roleA) watchedA += 1;
-    else if(s.roleB) watchedB += 1;
+    const key = dateKeyOf(s);
+    if(key && isBought(key, s)) watched += 1;
   });
 
   document.getElementById("statA").textContent = totalA;
   document.getElementById("statB").textContent = totalB;
   document.getElementById("statBoth").textContent = totalBoth;
   document.getElementById("statWatched").textContent = watched;
-  document.getElementById("watchedDetail").textContent =
-    watched > 0 ? `${NAME_A} ${watchedA+watchedBoth} · ${NAME_B} ${watchedB+watchedBoth} · 同台 ${watchedBoth}` : "";
-
-  const milestoneEl = document.getElementById("milestoneNote");
-  if(watched === 0){
-    milestoneEl.classList.remove("show");
-  } else if(MILESTONES.includes(watched)){
-    milestoneEl.textContent = `已达成第 ${watched} 场纪念`;
-    milestoneEl.classList.add("show");
-  } else {
-    const next = MILESTONES.find(m => m > watched);
-    if(next){
-      milestoneEl.textContent = `距第 ${next} 场纪念还差 ${next - watched} 场`;
-      milestoneEl.classList.add("show");
-    } else {
-      milestoneEl.classList.remove("show");
-    }
-  }
 }
 
 function renderWeekdays(){
@@ -490,6 +540,94 @@ function showDetail(dateKey){
         label.classList.remove("checked");
         label.querySelector(".label-text").textContent = "标记为已看";
       }
+      renderMonth();
+    });
+  });
+}
+
+function nextMilestoneInfo(count){
+  if(MILESTONES.includes(count)){
+    return {reached:true, target:count, remain:0};
+  }
+  const next = MILESTONES.find(m => m > count);
+  if(!next) return {reached:false, target:null, remain:0};
+  return {reached:false, target:next, remain: next - count};
+}
+
+function progressRowHtml(label, cls, count){
+  const info = nextMilestoneInfo(count);
+  let hint;
+  if(count === 0){
+    hint = "还没有记录";
+  } else if(info.reached){
+    hint = `已达成第 ${info.target} 场纪念`;
+  } else if(info.target){
+    hint = `距第 ${info.target} 场纪念还差 ${info.remain} 场`;
+  } else {
+    hint = "已超过全部预设纪念点";
+  }
+  const pct = info.target ? Math.min(100, Math.round(count / info.target * 100)) : 100;
+  return `
+    <div class="progress-row">
+      <div class="row-head">
+        <span><span class="who ${cls}">${label}</span> 你已看 ${count} 场</span>
+        <span class="hint">${hint}</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill ${cls}" style="width:${pct}%"></div></div>
+    </div>`;
+}
+
+function renderRecordTab(){
+  let watchedA = 0, watchedB = 0, watchedBoth = 0;
+  const watchedShows = [];
+
+  SHOWS.forEach(s => {
+    const key = dateKeyOf(s);
+    if(!key || !isBought(key, s)) return;
+    watchedShows.push({...s, dateKey: key});
+    const both = s.roleA && s.roleB;
+    if(both) watchedBoth += 1;
+    else if(s.roleA) watchedA += 1;
+    else if(s.roleB) watchedB += 1;
+  });
+
+  document.getElementById("progressBlock").innerHTML =
+    progressRowHtml(`你看过的 ${NAME_A} 场次`, "a", watchedA + watchedBoth) +
+    progressRowHtml(`你看过的 ${NAME_B} 场次`, "b", watchedB + watchedBoth) +
+    progressRowHtml("你看过的同台场次", "both", watchedBoth);
+
+  watchedShows.sort((x, y) => new Date(y.time) - new Date(x.time));
+
+  document.getElementById("recordListTitle").textContent =
+    watchedShows.length > 0 ? `已标记的场次（共 ${watchedShows.length} 场，按时间从新到旧）` : "";
+
+  const listEl = document.getElementById("watchedList");
+  if(watchedShows.length === 0){
+    listEl.innerHTML = `<div class="record-empty">还没有标记任何已看场次。去「日历」标签点开某一场演出，勾选"标记为已看"就会出现在这里。</div>`;
+    return;
+  }
+
+  listEl.innerHTML = watchedShows.map(s => {
+    const both = s.roleA && s.roleB;
+    let roleText;
+    if(both) roleText = `同台 · ${NAME_A} ${s.roleA} · ${NAME_B} ${s.roleB}`;
+    else if(s.roleA) roleText = `${NAME_A} · ${s.roleA}`;
+    else roleText = `${NAME_B} · ${s.roleB}`;
+    const storeKey = STORAGE_PREFIX + s.dateKey + "_" + s.musical + "_" + s.time;
+    return `
+      <div class="watched-item">
+        <div class="info">
+          <div class="musical">${s.musical}</div>
+          <div class="meta">${fmtFullDate(s.time)} ${fmtTime(s.time)} · ${s.city} · ${s.theatre} · ${roleText}</div>
+        </div>
+        <button class="unmark-btn" data-store-key="${storeKey}">取消标记</button>
+      </div>`;
+  }).join("");
+
+  listEl.querySelectorAll(".unmark-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      localStorage.removeItem(btn.dataset.storeKey);
+      renderRecordTab();
       renderMonth();
     });
   });
