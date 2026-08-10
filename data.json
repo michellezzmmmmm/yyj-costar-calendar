@@ -1,6 +1,3727 @@
 {
   "name_a": "郑艺彬",
   "name_b": "叶筱玮",
-  "generated_at": null,
-  "shows": []
+  "generated_at": "2026-08-10T09:53:13.505238+00:00",
+  "shows": [
+    {
+      "musical": "白夜行",
+      "city": "苏州",
+      "theatre": "苏州文化艺术中心大剧院",
+      "time": "2023-02-03 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "苏州",
+      "theatre": "苏州文化艺术中心大剧院",
+      "time": "2023-02-04 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-03-25 14:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-03-25 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-03-26 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-03-27 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-03-28 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-03-31 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-04-01 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-04-02 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-04-04 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-04-06 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-04-07 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-04-08 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-04-09 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-04-14 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-04-16 14:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "上海",
+      "theatre": "上海保利大剧院大剧场",
+      "time": "2023-04-30 14:00",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-05-04 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-05-05 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2023-05-06 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "猎罪图鉴",
+      "city": "上海",
+      "theatre": "云峰剧院",
+      "time": "2023-05-12 19:30",
+      "roleA": "沈翊",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "上海",
+      "theatre": "保利云间剧院",
+      "time": "2023-05-13 19:00",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "上海",
+      "theatre": "保利云间剧院",
+      "time": "2023-05-14 14:00",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "深圳",
+      "theatre": "光明文化艺术中心 演艺中心大剧场",
+      "time": "2023-05-20 20:00",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "深圳",
+      "theatre": "光明文化艺术中心 演艺中心大剧场",
+      "time": "2023-05-21 15:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "济宁",
+      "theatre": "济宁大剧院",
+      "time": "2023-05-25 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "济宁",
+      "theatre": "济宁大剧院",
+      "time": "2023-05-26 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "沈阳",
+      "theatre": "盛京大剧院歌剧厅",
+      "time": "2023-05-31 19:00",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "沈阳",
+      "theatre": "盛京大剧院歌剧厅",
+      "time": "2023-06-01 19:00",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "常熟",
+      "theatre": "常熟大剧院",
+      "time": "2023-06-06 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "常熟",
+      "theatre": "常熟大剧院",
+      "time": "2023-06-07 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "无锡",
+      "theatre": "无锡大剧院歌剧厅",
+      "time": "2023-06-09 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "无锡",
+      "theatre": "无锡大剧院歌剧厅",
+      "time": "2023-06-10 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "珠海",
+      "theatre": "珠海大剧院歌剧厅",
+      "time": "2023-06-12 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "珠海",
+      "theatre": "珠海大剧院歌剧厅",
+      "time": "2023-06-13 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "YOUNG剧场主剧场",
+      "time": "2023-06-17 14:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "YOUNG剧场主剧场",
+      "time": "2023-06-18 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "上海",
+      "theatre": "保利云间剧院",
+      "time": "2023-07-01 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "西安",
+      "theatre": "西安浐灞保利大剧院",
+      "time": "2023-07-09 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "唐朝诡事录之曼陀罗",
+      "city": "西安",
+      "theatre": "西安浐灞保利大剧院",
+      "time": "2023-07-10 19:30",
+      "roleA": "卢凌风",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "深圳",
+      "theatre": "深圳滨海艺术中心歌剧厅",
+      "time": "2023-07-28 20:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "深圳",
+      "theatre": "深圳滨海艺术中心歌剧厅",
+      "time": "2023-07-29 20:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "佛山",
+      "theatre": "佛山琼花大剧院",
+      "time": "2023-08-04 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "佛山",
+      "theatre": "佛山琼花大剧院",
+      "time": "2023-08-05 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-09-23 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-09-24 14:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-09-27 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-09-29 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2023-10-01 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "杭州",
+      "theatre": "杭州大剧院(歌剧院)",
+      "time": "2023-11-03 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "杭州",
+      "theatre": "杭州大剧院(歌剧院)",
+      "time": "2023-11-04 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "北京",
+      "theatre": "北京保利剧院",
+      "time": "2023-12-28 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "北京",
+      "theatre": "北京保利剧院",
+      "time": "2023-12-29 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-03-29 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-03-30 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-04-02 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-04-05 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "合肥",
+      "theatre": "合肥大剧院歌剧厅",
+      "time": "2024-04-19 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "合肥",
+      "theatre": "合肥大剧院歌剧厅",
+      "time": "2024-04-20 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-01 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-02 14:00",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-02 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-03 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-04 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-05 14:00",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-05 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-10 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-11 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-12 14:00",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-16 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-17 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-18 14:00",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-18 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "上海",
+      "theatre": "中国大戏院",
+      "time": "2024-05-19 14:00",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "苏州",
+      "theatre": "苏州文化艺术中心大剧院",
+      "time": "2024-06-14 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "苏州",
+      "theatre": "苏州文化艺术中心大剧院",
+      "time": "2024-06-15 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-06 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-07 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-10 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-12 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-14 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-16 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-20 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-25 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-07-28 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-01 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-03 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-07 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-09 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-15 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-16 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-17 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-20 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-22 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-24 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-27 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-08-31 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-01 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-05 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-07 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-08 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-12 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-14 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-16 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-17 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-19 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-22 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-26 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-09-28 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-01 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-01 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-03 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-04 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-04 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-05 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-07 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-12 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-13 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-15 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-19 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-19 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-20 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-22 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-10-26 14:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-10-27 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-29 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-10-30 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-11-01 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-02 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-11-02 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-11-03 14:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-06 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-08 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-10 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-16 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-20 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-21 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "北京",
+      "theatre": "北京喜剧院",
+      "time": "2024-11-23 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "北京",
+      "theatre": "北京喜剧院",
+      "time": "2024-11-24 14:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "时光代理人·法则游戏",
+      "city": "北京",
+      "theatre": "北京喜剧院",
+      "time": "2024-11-24 19:30",
+      "roleA": "陆光",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-28 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-29 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-11-30 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "危险的怜悯",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-12-06 19:30",
+      "roleA": "霍夫米勒",
+      "roleB": null
+    },
+    {
+      "musical": "危险的怜悯",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-12-08 14:00",
+      "roleA": "霍夫米勒",
+      "roleB": null
+    },
+    {
+      "musical": "危险的怜悯",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-12-10 19:30",
+      "roleA": "霍夫米勒",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-11 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "危险的怜悯",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-12-13 19:30",
+      "roleA": "霍夫米勒",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-14 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "危险的怜悯",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-12-14 19:30",
+      "roleA": "霍夫米勒",
+      "roleB": null
+    },
+    {
+      "musical": "危险的怜悯",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2024-12-15 14:00",
+      "roleA": "霍夫米勒",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-15 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-20 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-22 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-26 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-27 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-29 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2024-12-31 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-01 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-03 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-09 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-11 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-12 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-14 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-15 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-17 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-23 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-01-25 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-05 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-09 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-13 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-14 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-15 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-16 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-20 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-21 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-23 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-02-28 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-02 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-07 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-09 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-13 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-14 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-16 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-19 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-21 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-03-23 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-04-05 14:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-04-06 19:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-04-11 19:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-04-13 14:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-04-15 19:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-04-20 14:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-05-29 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-06-02 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-06-05 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-06-21 14:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-06-22 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-06-28 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-06-29 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-07-03 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-07-05 14:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-09 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-07-09 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-10 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-12 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-16 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-18 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-07-19 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-20 14:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-23 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-24 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-25 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "深圳",
+      "theatre": "坪山大剧院大剧场",
+      "time": "2025-07-26 15:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "深圳",
+      "theatre": "坪山大剧院大剧场",
+      "time": "2025-07-27 15:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-27 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-07-30 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-02 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-03 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-08-07 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-08-08 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-09 14:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-09 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-10 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-13 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-16 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-17 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-19 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-21 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "白夜行",
+      "city": "上海",
+      "theatre": "美琪大戏院",
+      "time": "2025-08-23 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-08-23 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "白夜行",
+      "city": "上海",
+      "theatre": "美琪大戏院",
+      "time": "2025-08-24 14:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-08-26 20:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-08-29 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "福州",
+      "theatre": "福州大学城文化艺术中心",
+      "time": "2025-08-30 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "福州",
+      "theatre": "福州大学城文化艺术中心",
+      "time": "2025-08-31 15:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-02 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-03 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-05 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-06 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-09-09 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-10 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-09-10 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-12 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-14 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-09-16 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-17 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-19 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-09-19 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-09-20 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-09-21 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-23 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-09-26 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-09-27 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-09-30 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-01 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-01 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-10-03 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-04 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-04 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-06 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-06 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-07 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-10-07 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-10 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2025-10-12 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2025-10-16 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2025-10-18 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-10-19 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-10-22 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-10-22 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "北京",
+      "theatre": "北京喜剧院",
+      "time": "2025-10-24 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2025-10-25 14:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "北京",
+      "theatre": "北京喜剧院",
+      "time": "2025-10-25 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-10-26 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-10-28 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-10-29 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2025-10-30 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "长沙",
+      "theatre": "梅溪湖国际文化艺术中心大剧院大剧场",
+      "time": "2025-10-30 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "长沙",
+      "theatre": "梅溪湖国际文化艺术中心大剧院大剧场",
+      "time": "2025-10-31 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-11-01 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-02 14:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2025-11-02 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-05 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-06 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "衢州",
+      "theatre": "衢州保利大剧院大剧场",
+      "time": "2025-11-08 15:00",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-09 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-13 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-11-15 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-16 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-22 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-26 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-27 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "大理寺日志",
+      "city": "上海",
+      "theatre": "黄浦文化中心大上海剧场",
+      "time": "2025-11-28 19:30",
+      "roleA": "李饼",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2025-11-28 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-11-29 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "北京",
+      "theatre": "北京保利剧院",
+      "time": "2025-11-30 14:00",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "大理寺日志",
+      "city": "上海",
+      "theatre": "黄浦文化中心大上海剧场",
+      "time": "2025-12-02 19:30",
+      "roleA": "李饼",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-03 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "大理寺日志",
+      "city": "上海",
+      "theatre": "黄浦文化中心大上海剧场",
+      "time": "2025-12-05 19:30",
+      "roleA": "李饼",
+      "roleB": null
+    },
+    {
+      "musical": "大理寺日志",
+      "city": "上海",
+      "theatre": "黄浦文化中心大上海剧场",
+      "time": "2025-12-06 19:30",
+      "roleA": "李饼",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-07 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "大理寺日志",
+      "city": "上海",
+      "theatre": "黄浦文化中心大上海剧场",
+      "time": "2025-12-10 19:30",
+      "roleA": "李饼",
+      "roleB": null
+    },
+    {
+      "musical": "大理寺日志",
+      "city": "上海",
+      "theatre": "黄浦文化中心大上海剧场",
+      "time": "2025-12-14 19:30",
+      "roleA": "李饼",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-18 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-19 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-20 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-24 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-25 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-28 14:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2025-12-31 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-01 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-03 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "南京",
+      "theatre": "南京保利大剧院大剧场",
+      "time": "2026-01-03 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-06 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-09 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "北京",
+      "theatre": "朝阳剧场",
+      "time": "2026-01-10 15:00",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2026-01-11 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-14 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-16 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-17 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2026-01-18 14:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-20 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-21 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-22 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "武汉",
+      "theatre": "湖北剧院大剧场",
+      "time": "2026-01-24 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-01-25 14:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "广州",
+      "theatre": "广东省友谊剧院",
+      "time": "2026-01-30 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "重庆",
+      "theatre": "重庆大剧院大剧场",
+      "time": "2026-01-31 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2026-02-01 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-02-05 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-02-07 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-02-10 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-02-11 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "宁波",
+      "theatre": "宁波文化广场大剧院",
+      "time": "2026-03-07 15:00",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-03-10 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-03-11 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-03-14 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "合肥",
+      "theatre": "合肥大剧院歌剧厅",
+      "time": "2026-03-14 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-03-18 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2026-03-18 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-03-20 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "白夜行",
+      "city": "上海",
+      "theatre": "美琪大戏院",
+      "time": "2026-03-21 19:30",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "白夜行",
+      "city": "上海",
+      "theatre": "美琪大戏院",
+      "time": "2026-03-22 14:00",
+      "roleA": "园村友彦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-03-24 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "YOUNG剧场主剧场",
+      "time": "2026-03-26 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-03-27 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "YOUNG剧场主剧场",
+      "time": "2026-03-29 14:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-05 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-06 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-08 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-11 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "绍兴",
+      "theatre": "金柯桥大剧院",
+      "time": "2026-04-11 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-12 14:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "绍兴",
+      "theatre": "金柯桥大剧院",
+      "time": "2026-04-12 14:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-04-18 19:30",
+      "roleA": "闪电",
+      "roleB": "蝎子"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-19 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-21 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-04-22 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-04-23 19:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-04-25 14:30",
+      "roleA": null,
+      "roleB": "蝎子"
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-04-25 19:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-04-26 19:30",
+      "roleA": "闪电",
+      "roleB": "蝎子"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "合肥",
+      "theatre": "合肥大剧院歌剧厅",
+      "time": "2026-04-30 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-05-01 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-05-02 14:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-05-03 14:30",
+      "roleA": null,
+      "roleB": "蝎子"
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-05-04 14:30",
+      "roleA": "闪电",
+      "roleB": "蝎子"
+    },
+    {
+      "musical": "女神在看",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-05-05 19:30",
+      "roleA": "闪电",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-05-07 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "长沙",
+      "theatre": "梅溪湖国际文化艺术中心大剧院大剧场",
+      "time": "2026-05-09 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-05-14 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-05-17 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-05-19 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-05-21 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-05-23 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-05-24 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-05-26 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-05-28 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-05-29 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "东莞",
+      "theatre": "松山湖展演中心",
+      "time": "2026-05-30 14:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-05-31 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-06-02 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-02 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-05 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-06 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "东莞",
+      "theatre": "东莞玉兰大剧院",
+      "time": "2026-06-06 20:00",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-09 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-10 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-06-11 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "西安",
+      "theatre": "陕西大剧院歌剧厅",
+      "time": "2026-06-13 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-13 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "西安",
+      "theatre": "陕西大剧院歌剧厅",
+      "time": "2026-06-14 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-16 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-18 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-06-19 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "天津",
+      "theatre": "天津大剧院歌剧厅",
+      "time": "2026-06-20 19:30",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-06-21 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-06-23 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-06-24 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-06-27 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "#0528",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-07-08 19:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2026-07-08 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-10 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2026-07-11 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-12 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-14 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "#0528",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-07-16 19:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-17 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-22 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "#0528",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-07-24 19:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-26 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "#0528",
+      "city": "上海",
+      "theatre": "人民大舞台",
+      "time": "2026-07-26 19:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-29 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-07-31 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2026-08-05 19:30",
+      "roleA": "金祐镇",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-08-07 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2026-08-08 14:30",
+      "roleA": null,
+      "roleB": "神秘男子"
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2026-08-09 19:30",
+      "roleA": "金祐镇",
+      "roleB": "神秘男子"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-08-11 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2026-08-11 19:30",
+      "roleA": "金祐镇",
+      "roleB": null
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2026-08-12 14:30",
+      "roleA": "金祐镇",
+      "roleB": null
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海大剧院中剧场",
+      "time": "2026-08-14 19:30",
+      "roleA": "金祐镇",
+      "roleB": "神秘男子"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-08-15 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-08-20 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-08-26 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-08-27 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "六个说谎的大学生",
+      "city": "衢州",
+      "theatre": "衢州保利大剧院大剧场",
+      "time": "2026-08-29 19:00",
+      "roleA": "波多野祥吾",
+      "roleB": null
+    },
+    {
+      "musical": "流星之绊",
+      "city": "上海",
+      "theatre": "星空间10号·MOriginal Box",
+      "time": "2026-08-29 19:30",
+      "roleA": null,
+      "roleB": "高景行"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-02 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-04 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-05 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-06 14:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-09-12 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-09-13 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-16 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-09-17 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-19 14:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-09-20 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-24 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-25 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-09-25 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-09-26 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-09-27 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-27 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-09-30 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-01 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-01 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-10-02 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-03 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-04 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-05 14:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-05 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-10-06 19:30",
+      "roleA": null,
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-06 19:30",
+      "roleA": "S",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-10-07 19:30",
+      "roleA": "范·米格伦",
+      "roleB": null
+    },
+    {
+      "musical": "#0528",
+      "city": "南京",
+      "theatre": "南京保利大剧院大剧场",
+      "time": "2026-10-10 19:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-10 19:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "#0528",
+      "city": "南京",
+      "theatre": "南京保利大剧院大剧场",
+      "time": "2026-10-11 14:00",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "狂炎奏鸣曲",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2026-10-11 14:30",
+      "roleA": null,
+      "roleB": "S"
+    },
+    {
+      "musical": "卡拉马佐夫兄弟",
+      "city": "上海",
+      "theatre": "上海西岸大剧院大剧场",
+      "time": "2026-10-16 19:30",
+      "roleA": "阿辽沙",
+      "roleB": null
+    },
+    {
+      "musical": "“Savior”",
+      "city": "上海",
+      "theatre": "星空间·星空穹顶剧场",
+      "time": "2026-10-17 19:30",
+      "roleA": "范·米格伦",
+      "roleB": "拉乔·皮勒"
+    },
+    {
+      "musical": "#0528",
+      "city": "南昌",
+      "theatre": "南昌保利大剧院",
+      "time": "2026-12-06 19:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "#0528",
+      "city": "南昌",
+      "theatre": "南昌保利大剧院",
+      "time": "2026-12-07 14:30",
+      "roleA": "Brandon",
+      "roleB": null
+    }
+  ]
 }
