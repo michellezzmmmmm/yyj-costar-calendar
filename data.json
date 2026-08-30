@@ -1,7 +1,7 @@
 {
   "name_a": "郑艺彬",
   "name_b": "叶筱玮",
-  "generated_at": "2026-08-23T18:25:23.943295+00:00",
+  "generated_at": "2026-08-30T20:33:24.817557+00:00",
   "shows": [
     {
       "musical": "白夜行",
@@ -3720,6 +3720,22 @@
       "city": "南昌",
       "theatre": "南昌保利大剧院",
       "time": "2026-12-07 14:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "#0528",
+      "city": "杭州",
+      "theatre": "临平大剧院大剧场",
+      "time": "2027-01-08 19:30",
+      "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "#0528",
+      "city": "杭州",
+      "theatre": "临平大剧院大剧场",
+      "time": "2027-01-09 14:30",
       "roleA": "Brandon",
       "roleB": null
     }
