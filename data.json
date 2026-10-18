@@ -1,7 +1,7 @@
 {
   "name_a": "郑艺彬",
   "name_b": "叶筱玮",
-  "generated_at": "2026-10-11T21:28:24.736430+00:00",
+  "generated_at": "2026-10-18T20:05:55.337726+00:00",
   "shows": [
     {
       "musical": "白夜行",
@@ -3756,6 +3756,14 @@
       "roleB": null
     },
     {
+      "musical": "本杰明·巴顿奇事",
+      "city": "廊坊",
+      "theatre": "丝绸之路国际艺术交流中心歌剧厅",
+      "time": "2026-12-19 14:30",
+      "roleA": "本杰明·巴顿",
+      "roleB": null
+    },
+    {
       "musical": "#0528",
       "city": "杭州",
       "theatre": "临平大剧院大剧场",
@@ -3769,6 +3777,22 @@
       "theatre": "临平大剧院大剧场",
       "time": "2027-01-09 14:30",
       "roleA": "Brandon",
+      "roleB": null
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2027-01-11 19:30",
+      "roleA": "金祐镇",
+      "roleB": null
+    },
+    {
+      "musical": "阴天",
+      "city": "上海",
+      "theatre": "上海共舞台",
+      "time": "2027-01-17 19:30",
+      "roleA": "金祐镇",
       "roleB": null
     }
   ]
